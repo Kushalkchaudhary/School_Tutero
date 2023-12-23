@@ -1,0 +1,103 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-23T13:59:19.737Z",
+        "line": 13,
+        "name": "User Successfully login into Application",
+        "description": "",
+        "id": "login-page;user-successfully-login-into-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 203207700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the Application",
+            "match": {
+              "location": "com.serenity.stepdefinition.LoginStepDef.i_am_on_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to Login popup by clicking on Log In button",
+            "match": {
+              "location": "com.serenity.stepdefinition.LoginStepDef.i_navigate_to_login_page_by_clicking_on_log_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter valid testuser@gmail.com",
+            "match": {
+              "location": "com.serenity.stepdefinition.LoginStepDef.i_enter_valid_testuser_gmail_com()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter valid 123456",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 14
+                }
+              ],
+              "location": "com.serenity.stepdefinition.LoginStepDef.i_enter_valid(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be navigated to My account screen",
+            "match": {
+              "location": "com.serenity.stepdefinition.LoginStepDef.i_should_be_navigated_to_my_account_screen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Login page",
+    "description": "",
+    "id": "login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

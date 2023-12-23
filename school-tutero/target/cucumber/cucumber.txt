@@ -1,0 +1,8 @@
+
+@Login @Login
+Scenario Outline: User Successfully login into Application    # src/test/resources/features/Login.feature:13
+  Given I am on the Application                               # com.serenity.stepdefinition.LoginStepDef.i_am_on_the_application()
+  When I navigate to Login popup by clicking on Log In button # com.serenity.stepdefinition.LoginStepDef.i_navigate_to_login_page_by_clicking_on_log_in_button()
+  And I enter valid testuser@gmail.com                        # com.serenity.stepdefinition.LoginStepDef.i_enter_valid_testuser_gmail_com()
+  And I enter valid 123456                                    # com.serenity.stepdefinition.LoginStepDef.i_enter_valid(java.lang.Integer)
+  Then I should be navigated to My account screen             # com.serenity.stepdefinition.LoginStepDef.i_should_be_navigated_to_my_account_screen()

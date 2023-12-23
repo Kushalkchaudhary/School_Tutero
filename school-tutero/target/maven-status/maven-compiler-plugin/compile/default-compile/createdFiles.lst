@@ -1,0 +1,3 @@
+com\serenity\pages\LoginPage.class
+com\serenity\stepdefinition\LoginStepDef.class
+com\serenity\steps\LoginSteps.class

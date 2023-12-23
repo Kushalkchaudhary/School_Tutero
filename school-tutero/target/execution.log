@@ -1,0 +1,40 @@
+19:29:19.486 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///D:/Learning/Tutero/school-tutero/src/test/resources/features/Login.feature
+19:29:19.596 [main] INFO   - [96m
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+[0m
+19:29:19.611 [main] INFO   - Test Suite Started: Login page
+19:29:19.752 [pool-2-thread-1] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///D:/Learning/Tutero/school-tutero/src/test/resources/features/Login.feature
+19:29:19.799 [pool-2-thread-1] INFO   - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+User Successfully login into Application(login-page;user-successfully-login-into-application)
+--------------------------------------------------------------------------------
+19:29:19.799 [pool-2-thread-1] INFO  n.thucydides.core.model.TestOutcome - SetUserStory Login page
+19:29:19.799 [pool-2-thread-1] INFO  n.thucydides.core.model.TestOutcome - SetUserStory Login page
+19:29:20.143 [pool-2-thread-1] INFO   - [92m
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+User Successfully login into Application
+----------------------------------------------------------------------[0m
+19:29:20.205 [pool-2-thread-1] INFO  n.t.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@6b8280e6: Generating report for test outcome: Login page:User Successfully login into Application
+19:29:20.221 [pool-3-thread-1] INFO  n.t.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@612e21b9: Generating report for test outcome: Login page:User Successfully login into Application
+19:29:20.768 [main] INFO  i.c.core.plugin.SerenityReporter - Cleanup test resources for URI file:///D:/Learning/Tutero/school-tutero/src/test/resources/features/Login.feature
